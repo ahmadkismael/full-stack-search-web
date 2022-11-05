@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #1c1c1c;
+    font-family: sans-serif;
+    color:wheat
+}
+
+h3 {
+    color: wheat;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #424042;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+form {
+    background-color: wheat;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 18px sytem-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+
+}
+
+.thumbnail {
+    height: 325px;
+    width: 280px;
+    border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 10px;
+    text-align: center;
+    background-color: #424042;
+}
